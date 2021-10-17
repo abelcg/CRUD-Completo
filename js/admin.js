@@ -65,7 +65,7 @@ function agregarProducto() {
   );
 
   console.log(nuevoProducto);
-  // Para evitar ingreso de un productos con ID repetidos creo un array vacio
+  // Para evitar ingreso de un productos con ID repetidos creo un array vacio. 
   let array = [];
   //Guardo el objeto producto en el array a comparar
   array.push(nuevoProducto);
