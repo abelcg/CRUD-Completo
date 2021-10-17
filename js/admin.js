@@ -144,6 +144,7 @@ function crearFila(item) {
   let stock = item.stock;
   let orden = item.orden;
   let botones = ` <td>
+  <div class="btn-group" role="group" aria-label="botones de acciones">
    <a class="btn text-success fs-4" role="button" onclick="edicionProducto('${item.id}')">
      <svg
        xmlns="http://www.w3.org/2000/svg"
@@ -180,6 +181,7 @@ function crearFila(item) {
        />
      </svg>
    </a>
+   </div>
  </td>`;
 
   let newData = {
